@@ -131,7 +131,7 @@ public class FancyGifDialog {
             pBtn.setText(positiveBtnText);
             if(negativeBtnText!=null){
             nBtn.setText(negativeBtnText);
-            } else {nBtn.setVisibility = View.GONE ;}
+            } else {nBtn.setVisibility(View.GONE) ;}
             if(pBtnColor!=null)
             { GradientDrawable bgShape = (GradientDrawable)pBtn.getBackground();
               bgShape.setColor(Color.parseColor(pBtnColor));
